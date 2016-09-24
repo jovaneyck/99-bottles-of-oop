@@ -9,25 +9,29 @@ namespace _99BottlesOfOOP
             99,
             @"99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.")]
-//        [InlineData("Another verse",
-//            89,
-//            @"89 bottles of beer on the wall, 89 bottles of beer.
-//Take one down and pass it around, 88 bottles of beer on the wall.")]
+        [InlineData("Another verse",
+            89,
+            @"89 bottles of beer on the wall, 89 bottles of beer.
+Take one down and pass it around, 88 bottles of beer on the wall.")]
+        [InlineData("Another verse",
+            50,
+            @"50 bottles of beer on the wall, 50 bottles of beer.
+Take one down and pass it around, 49 bottles of beer on the wall.")]
 //        [InlineData("Verse two",
-//            2,
-//            @"2 bottles of beer on the wall, 2 bottles of beer.
+//                    2,
+//                    @"2 bottles of beer on the wall, 2 bottles of beer.
 //Take one down and pass it around, 1 bottle of beer on the wall.")]
-//        [InlineData("Verse one",
-//            1,
-//            @"1 bottle of beer on the wall, 1 bottle of beer.
-//Take it down and pass it around, no more bottles of beer on the wall.")]
-//        [InlineData("Verse 0",
-//            0,
-//            @"No more bottles of beer on the wall, no more bottles of beer.
-//Go to the store and buy some more, 99 bottles of beer on the wall.")]
+        //        [InlineData("Verse one",
+        //            1,
+        //            @"1 bottle of beer on the wall, 1 bottle of beer.
+        //Take it down and pass it around, no more bottles of beer on the wall.")]
+        //        [InlineData("Verse 0",
+        //            0,
+        //            @"No more bottles of beer on the wall, no more bottles of beer.
+        //Go to the store and buy some more, 99 bottles of beer on the wall.")]
         public void Verses(string description, int verseNumber, string expected)
         {
-            Assert.Equal(expected, new Bottles().Verse(99));
+            Assert.Equal(expected, new Bottles().Verse(verseNumber));
         }
 
         //[Fact]
