@@ -28,13 +28,13 @@ Take it down and pass it around, no more bottles of beer on the wall.")]
         [InlineData("Verse 0",
                     0,
                     @"No more bottles of beer on the wall, no more bottles of beer.
-        Go to the store and buy some more, 99 bottles of beer on the wall.")]
+Go to the store and buy some more, 99 bottles of beer on the wall.")]
         public void Verses(string description, int verseNumber, string expected)
         {
             Assert.Equal(expected, new Bottles().Verse(verseNumber));
         }
 
-        //[Fact]
+        [Fact]
         public void ACoupleOfVerses()
         {
             var expected = @"99 bottles of beer on the wall, 99 bottles of beer.
