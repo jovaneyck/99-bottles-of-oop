@@ -36,7 +36,7 @@ Take one down and pass it around, {number - 1} bottles of beer on the wall.";
 
         public string Song()
         {
-            throw new System.NotImplementedException();
+            return Verses(99, 0);
         }
     }
 }

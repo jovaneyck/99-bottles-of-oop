@@ -46,7 +46,7 @@ Take one down and pass it around, 97 bottles of beer on the wall.";
             Assert.Equal(expected, new Bottles().Verses(99, 98));
         }
 
-        //[Fact]
+        [Fact]
         public void AFewVerses()
         {
             var expected = @"2 bottles of beer on the wall, 2 bottles of beer.
@@ -61,7 +61,7 @@ Go to the store and buy some more, 99 bottles of beer on the wall.";
             Assert.Equal(expected, new Bottles().Verses(2,0));
         }
 
-        //[Fact]
+        [Fact]
         public void WholeSong()
         {
             var expected = @"99 bottles of beer on the wall, 99 bottles of beer.
