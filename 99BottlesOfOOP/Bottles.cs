@@ -55,7 +55,11 @@ namespace _99BottlesOfOOP
 
         public string Quantity(int number = 0)
         {
-            return "no more";
+            if (number == 0)
+            {
+                return "no more";
+            }
+            return null;
         }
     }
 }
