@@ -30,7 +30,7 @@ namespace _99BottlesOfOOP
                 case 1:
                     return $"{number} {Container(number)} of beer on the wall, {number} {Container(number)} of beer.\r\nTake it down and pass it around, no more {Container(number - 1)} of beer on the wall.";
                 default:
-                    return $"{number} {Container(number)} of beer on the wall, {number} {Container(number)} of beer.\r\nTake one down and pass it around, {number - 1} {Container(number - 1)} of beer on the wall.";
+                    return $"{number} {Container(number)} of beer on the wall, {number} {Container(number)} of beer.\r\nTake {Pronoun()} down and pass it around, {number - 1} {Container(number - 1)} of beer on the wall.";
             }
         }
 
