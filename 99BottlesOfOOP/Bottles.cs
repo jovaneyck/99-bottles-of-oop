@@ -28,7 +28,7 @@ namespace _99BottlesOfOOP
                 case 0:
                     return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, no more bottles of beer.\r\nGo to the store and buy some more, 99 bottles of beer on the wall.";
                 default:
-                    return $"{number} {Container(number)} of beer on the wall, {number} {Container(number)} of beer.\r\nTake {Pronoun(number)} down and pass it around, {Quantity(number - 1)} {Container(number - 1)} of beer on the wall.";
+                    return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, {number} {Container(number)} of beer.\r\nTake {Pronoun(number)} down and pass it around, {Quantity(number - 1)} {Container(number - 1)} of beer on the wall.";
             }
         }
 
