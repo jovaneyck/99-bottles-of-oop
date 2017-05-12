@@ -55,7 +55,7 @@ namespace _99BottlesOfOOP
 
         public string Quantity()
         {
-            return null;
+            return "no more";
         }
     }
 }
