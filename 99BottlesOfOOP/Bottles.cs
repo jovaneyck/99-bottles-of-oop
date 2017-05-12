@@ -46,7 +46,7 @@ namespace _99BottlesOfOOP
 
         public string Pronoun()
         {
-            return null;
+            return "one";
         }
     }
 }
