@@ -46,6 +46,10 @@ namespace _99BottlesOfOOP
 
         public string Pronoun(int number = -1)
         {
+            if (number == 1)
+            {
+                return "it";
+            }
             return "one";
         }
     }
