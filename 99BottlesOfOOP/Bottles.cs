@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Globalization;
+using System.Linq;
 using static System.String;
 
 namespace _99BottlesOfOOP
@@ -36,7 +37,7 @@ namespace _99BottlesOfOOP
             }
         }
 
-        public string Container()
+        public string Container(int number = -1)
         {
             return "bottles";
         }
