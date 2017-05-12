@@ -18,7 +18,7 @@ namespace _99BottlesOfOOP
                     .Reverse()
                     .Select(Verse);
 
-            return Join(System.Environment.NewLine+System.Environment.NewLine, verses);
+            return Join($"\r\n\r\n", verses);
         }
 
         public string Verse(int number)
