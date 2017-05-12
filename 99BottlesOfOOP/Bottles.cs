@@ -53,7 +53,7 @@ namespace _99BottlesOfOOP
             return "one";
         }
 
-        public string Quantity()
+        public string Quantity(int number = -1)
         {
             return "no more";
         }
