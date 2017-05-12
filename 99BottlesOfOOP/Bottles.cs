@@ -27,7 +27,7 @@ namespace _99BottlesOfOOP
             switch (number)
             {
                 case 0:
-                    return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, {Quantity(number)} {Container(number)} of beer.\r\n{Action(number)}, {Quantity(99)} bottles of beer on the wall.";
+                    return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, {Quantity(number)} {Container(number)} of beer.\r\n{Action(number)}, {Quantity(99)} {Container(number - 1)} of beer on the wall.";
                 default:
                     return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, {Quantity(number)} {Container(number)} of beer.\r\n{Action(number)}, {Quantity(number - 1)} {Container(number - 1)} of beer on the wall.";
             }
