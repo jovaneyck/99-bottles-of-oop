@@ -43,5 +43,10 @@ namespace _99BottlesOfOOP
 
             return "bottles";
         }
+
+        public string Pronoun()
+        {
+            return null;
+        }
     }
 }
