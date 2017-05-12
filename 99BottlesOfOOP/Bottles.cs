@@ -39,6 +39,11 @@ namespace _99BottlesOfOOP
 
         public string Container(int number = -1)
         {
+            if (number == 1)
+            {
+                return "bottle";
+            }
+
             return "bottles";
         }
     }
