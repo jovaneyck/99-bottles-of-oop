@@ -36,7 +36,7 @@ namespace _99BottlesOfOOP
             }
         }
 
-        public string Container(int number = -1)
+        public string Container(int number)
         {
             if (number == 1)
             {
