@@ -58,7 +58,9 @@
   <ItemGroup>
     <Compile Include="Bottles.cs" />
     <Compile Include="BottlesTest.cs" />
+    <Compile Include="CapitalizationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
