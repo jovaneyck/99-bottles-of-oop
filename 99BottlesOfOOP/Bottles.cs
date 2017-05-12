@@ -52,5 +52,10 @@ namespace _99BottlesOfOOP
             }
             return "one";
         }
+
+        public string Quantity()
+        {
+            return null;
+        }
     }
 }
