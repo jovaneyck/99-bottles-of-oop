@@ -1,5 +1,4 @@
-﻿using System.Globalization;
-using System.Linq;
+﻿using System.Linq;
 using static System.String;
 
 namespace _99BottlesOfOOP
@@ -31,7 +30,7 @@ namespace _99BottlesOfOOP
                 case 1:
                     return "1 bottle of beer on the wall, 1 bottle of beer.\r\nTake it down and pass it around, no more bottles of beer on the wall.";
                 case 2:
-                    return $"{number} bottles of beer on the wall, {number} bottles of beer.\r\nTake one down and pass it around, {number - 1} bottle of beer on the wall.";
+                    return $"{number} bottles of beer on the wall, {number} bottles of beer.\r\nTake one down and pass it around, {number - 1} {Container(number - 1)} of beer on the wall.";
                 default:
                     return $"{number} bottles of beer on the wall, {number} bottles of beer.\r\nTake one down and pass it around, {number - 1} {Container(number - 1)} of beer on the wall.";
             }
