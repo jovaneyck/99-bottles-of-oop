@@ -44,7 +44,7 @@ namespace _99BottlesOfOOP
             return "bottles";
         }
 
-        public string Pronoun()
+        public string Pronoun(int number = -1)
         {
             return "one";
         }
