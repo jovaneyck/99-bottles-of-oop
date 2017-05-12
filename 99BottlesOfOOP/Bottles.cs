@@ -32,7 +32,7 @@ namespace _99BottlesOfOOP
                 case 2:
                     return $"{number} bottles of beer on the wall, {number} bottles of beer.\r\nTake one down and pass it around, {number - 1} bottle of beer on the wall.";
                 default:
-                    return $"{number} bottles of beer on the wall, {number} bottles of beer.\r\nTake one down and pass it around, {number - 1} bottles of beer on the wall.";
+                    return $"{number} bottles of beer on the wall, {number} bottles of beer.\r\nTake one down and pass it around, {number - 1} {Container()} of beer on the wall.";
             }
         }
 
