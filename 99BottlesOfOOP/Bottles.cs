@@ -41,7 +41,7 @@ namespace _99BottlesOfOOP
 
         public string Quantity(int number)
         {
-            return new BottleNumber(number).Quantity(number);
+            return new BottleNumber(number).Quantity();
         }
 
         public string Action(int number)

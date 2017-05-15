@@ -28,7 +28,7 @@ namespace _99BottlesOfOOP
             return "one";
         }
 
-        public string Quantity(int number)
+        public string Quantity()
         {
             if (number == 0)
             {
