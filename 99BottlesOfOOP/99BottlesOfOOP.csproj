@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BottleNumber.cs" />
     <Compile Include="Bottles.cs" />
     <Compile Include="BottlesTest.cs" />
     <Compile Include="CapitalizationTests.cs" />
