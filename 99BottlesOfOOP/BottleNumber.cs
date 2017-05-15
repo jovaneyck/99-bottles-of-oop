@@ -43,7 +43,7 @@ namespace _99BottlesOfOOP
             {
                 return "Go to the store and buy some more";
             }
-            return $"Take {Pronoun(number)} down and pass it around";
+            return $"Take {Pronoun()} down and pass it around";
         }
 
         public int Successor(int number)
