@@ -24,13 +24,7 @@ namespace _99BottlesOfOOP
 
         public string Verse(int number)
         {
-            switch (number)
-            {
-                case 0:
-                    return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, {Quantity(number)} {Container(number)} of beer.\r\n{Action(number)}, {Quantity(Successor(number))} {Container(Successor(number))} of beer on the wall.";
-                default:
-                    return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, {Quantity(number)} {Container(number)} of beer.\r\n{Action(number)}, {Quantity(Successor(number))} {Container(Successor(number))} of beer on the wall.";
-            }
+            return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, {Quantity(number)} {Container(number)} of beer.\r\n{Action(number)}, {Quantity(Successor(number))} {Container(Successor(number))} of beer on the wall.";
         }
 
         public string Container(int number)
