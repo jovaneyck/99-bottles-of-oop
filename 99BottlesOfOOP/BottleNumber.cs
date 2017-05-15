@@ -2,11 +2,11 @@ namespace _99BottlesOfOOP
 {
     public class BottleNumber
     {
-        private readonly int _number;
+        private readonly int number;
 
         public BottleNumber(int number)
         {
-            _number = number;
+            this.number = number;
         }
 
         public string Container(int number)
