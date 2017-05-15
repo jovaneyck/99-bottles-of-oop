@@ -51,7 +51,7 @@ namespace _99BottlesOfOOP
 
         public int Successor(int number)
         {
-            return new BottleNumber(number).Successor(number);
+            return new BottleNumber(number).Successor();
         }
     }
 }

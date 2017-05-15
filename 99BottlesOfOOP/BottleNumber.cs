@@ -46,7 +46,7 @@ namespace _99BottlesOfOOP
             return $"Take {Pronoun()} down and pass it around";
         }
 
-        public int Successor(int number)
+        public int Successor()
         {
             if (number == 0)
             {
