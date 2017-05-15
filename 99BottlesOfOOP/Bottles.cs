@@ -41,30 +41,17 @@ namespace _99BottlesOfOOP
 
         public string Quantity(int number)
         {
-            if (number == 0)
-            {
-                return "no more";
-            }
-            return number.ToString();
+            return new BottleNumber(number).Quantity(number);
         }
 
         public string Action(int number)
         {
-            if (number == 0)
-            {
-                return "Go to the store and buy some more";
-            }
-            return $"Take {Pronoun(number)} down and pass it around";
+            return new BottleNumber(number).Action(number);
         }
 
         public int Successor(int number)
         {
-            if (number == 0)
-            {
-                return 99;
-            }
-
-            return number - 1;
+            return new BottleNumber(number).Successor(number);
         }
     }
 }
