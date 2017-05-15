@@ -19,7 +19,7 @@ namespace _99BottlesOfOOP
             return "bottles";
         }
 
-        public string Pronoun(int delete_me=-1)
+        public string Pronoun()
         {
             if (number == 1)
             {
