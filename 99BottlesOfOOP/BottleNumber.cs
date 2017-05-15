@@ -2,6 +2,13 @@ namespace _99BottlesOfOOP
 {
     public class BottleNumber
     {
+        private readonly int _number;
+
+        public BottleNumber(int number)
+        {
+            _number = number;
+        }
+
         public string Container(int number)
         {
             if (number == 1)
