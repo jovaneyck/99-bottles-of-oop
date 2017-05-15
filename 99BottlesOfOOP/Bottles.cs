@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using Microsoft.SqlServer.Server;
 using static System.String;
 
 namespace _99BottlesOfOOP
@@ -8,12 +7,12 @@ namespace _99BottlesOfOOP
     {
         public string Song()
         {
-            return Verses(99,  0);
+            return Verses(99, 0);
         }
 
         public string Verses(int first, int last)
         {
-            var verses = 
+            var verses =
                 Enumerable
                     .Range(last, first - last + 1)
                     .Reverse()
@@ -24,7 +23,10 @@ namespace _99BottlesOfOOP
 
         public string Verse(int number)
         {
-            return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, {Quantity(number)} {Container(number)} of beer.\r\n{Action(number)}, {Quantity(Successor(number))} {Container(Successor(number))} of beer on the wall.";
+            return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, " +
+                   $"{Quantity(number)} {Container(number)} of beer.\r\n" +
+                   $"{Action(number)}, " +
+                   $"{Quantity(Successor(number))} {Container(Successor(number))} of beer on the wall.";
         }
 
         public string Container(int number)
