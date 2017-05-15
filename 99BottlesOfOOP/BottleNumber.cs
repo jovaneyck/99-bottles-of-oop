@@ -9,7 +9,7 @@ namespace _99BottlesOfOOP
             this.number = number;
         }
 
-        public string Container(int number)
+        public string Container(int delete_me = -1)
         {
             if (number == 1)
             {
