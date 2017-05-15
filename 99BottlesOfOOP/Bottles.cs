@@ -36,7 +36,7 @@ namespace _99BottlesOfOOP
 
         public string Pronoun(int number)
         {
-            return new BottleNumber(number).Pronoun(number);
+            return new BottleNumber(number).Pronoun();
         }
 
         public string Quantity(int number)
