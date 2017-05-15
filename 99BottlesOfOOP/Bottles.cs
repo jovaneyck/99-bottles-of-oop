@@ -32,12 +32,6 @@ namespace _99BottlesOfOOP
         public string Container(int number)
         {
             return new BottleNumber(number).Container(number);
-            if (number == 1)
-            {
-                return "bottle";
-            }
-
-            return "bottles";
         }
 
         public string Pronoun(int number)
