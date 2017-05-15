@@ -36,7 +36,7 @@ namespace _99BottlesOfOOP
 
         public string Pronoun(int number)
         {
-            new BottleNumber(number).Pronoun(number);
+            return new BottleNumber(number).Pronoun(number);
             if (number == 1)
             {
                 return "it";
