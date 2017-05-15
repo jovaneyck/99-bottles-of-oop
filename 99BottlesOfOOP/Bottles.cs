@@ -46,7 +46,7 @@ namespace _99BottlesOfOOP
 
         public string Action(int number)
         {
-            return new BottleNumber(number).Action(number);
+            return new BottleNumber(number).Action();
         }
 
         public int Successor(int number)

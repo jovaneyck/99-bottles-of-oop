@@ -37,7 +37,7 @@ namespace _99BottlesOfOOP
             return number.ToString();
         }
 
-        public string Action(int number)
+        public string Action()
         {
             if (number == 0)
             {
