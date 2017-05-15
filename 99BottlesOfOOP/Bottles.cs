@@ -37,11 +37,6 @@ namespace _99BottlesOfOOP
         public string Pronoun(int number)
         {
             return new BottleNumber(number).Pronoun(number);
-            if (number == 1)
-            {
-                return "it";
-            }
-            return "one";
         }
 
         public string Quantity(int number)
