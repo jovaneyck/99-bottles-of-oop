@@ -25,10 +25,10 @@ namespace _99BottlesOfOOP
         {
             var bottleNumber = new BottleNumber(number);
             var nextBottleNumber = new BottleNumber(bottleNumber.Successor());
-            return $"{bottleNumber.Quantity().Capitalize()} {bottleNumber.Container()} of beer on the wall, " +
+            return $"{bottleNumber}".Capitalize() + " of beer on the wall, " +
                    $"{bottleNumber} of beer.\r\n" +
                    $"{bottleNumber.Action()}, " +
-                   $"{nextBottleNumber.Quantity()} {nextBottleNumber.Container()} of beer on the wall.";
+                   $"{nextBottleNumber} of beer on the wall.";
         }
     }
 }
