@@ -55,5 +55,10 @@ namespace _99BottlesOfOOP
 
             return _number - 1;
         }
+
+        public override string ToString()
+        {
+            return $"{Quantity()} {Container()}";
+        }
     }
 }
