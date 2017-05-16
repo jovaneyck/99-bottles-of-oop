@@ -30,30 +30,5 @@ namespace _99BottlesOfOOP
                    $"{bottleNumber.Action()}, " +
                    $"{nextBottleNumber.Quantity()} {nextBottleNumber.Container()} of beer on the wall.";
         }
-
-        public string Container(int number)
-        {
-            return new BottleNumber(number).Container();
-        }
-
-        public string Pronoun(int number)
-        {
-            return new BottleNumber(number).Pronoun();
-        }
-
-        public string Quantity(int number)
-        {
-            return new BottleNumber(number).Quantity();
-        }
-
-        public string Action(int number)
-        {
-            return new BottleNumber(number).Action();
-        }
-
-        public int Successor(int number)
-        {
-            return new BottleNumber(number).Successor();
-        }
     }
 }
