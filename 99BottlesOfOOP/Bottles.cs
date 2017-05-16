@@ -24,10 +24,11 @@ namespace _99BottlesOfOOP
         public string Verse(int number)
         {
             var bottleNumber = new BottleNumber(number);
+            var nextBottleNumber = new BottleNumber(bottleNumber.Successor());
             return $"{bottleNumber.Quantity().Capitalize()} {bottleNumber.Container()} of beer on the wall, " +
                    $"{bottleNumber.Quantity()} {bottleNumber.Container()} of beer.\r\n" +
                    $"{bottleNumber.Action()}, " +
-                   $"{Quantity(Successor(number))} {Container(Successor(number))} of beer on the wall.";
+                   $"{nextBottleNumber.Quantity()} {nextBottleNumber.Container()} of beer on the wall.";
         }
 
         public string Container(int number)
