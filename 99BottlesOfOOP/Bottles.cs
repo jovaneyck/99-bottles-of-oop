@@ -24,9 +24,9 @@ namespace _99BottlesOfOOP
         public string Verse(int number)
         {
             var bottleNumber = new BottleNumber(number);
-            return $"{Quantity(number).Capitalize()} {Container(number)} of beer on the wall, " +
-                   $"{Quantity(number)} {Container(number)} of beer.\r\n" +
-                   $"{Action(number)}, " +
+            return $"{bottleNumber.Quantity().Capitalize()} {bottleNumber.Container()} of beer on the wall, " +
+                   $"{bottleNumber.Quantity()} {bottleNumber.Container()} of beer.\r\n" +
+                   $"{bottleNumber.Action()}, " +
                    $"{Quantity(Successor(number))} {Container(Successor(number))} of beer on the wall.";
         }
 
