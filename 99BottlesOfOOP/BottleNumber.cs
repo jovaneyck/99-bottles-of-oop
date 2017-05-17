@@ -2,16 +2,16 @@ namespace _99BottlesOfOOP
 {
     public class BottleNumber
     {
-        protected readonly int _number;
+        protected readonly int Number;
 
         public BottleNumber(int number)
         {
-            _number = number;
+            Number = number;
         }
 
         public string Container()
         {
-            if (_number == 1)
+            if (Number == 1)
             {
                 return "bottle";
             }
@@ -21,7 +21,7 @@ namespace _99BottlesOfOOP
 
         public string Pronoun()
         {
-            if (_number == 1)
+            if (Number == 1)
             {
                 return "it";
             }
@@ -30,16 +30,16 @@ namespace _99BottlesOfOOP
 
         public string Quantity()
         {
-            if (_number == 0)
+            if (Number == 0)
             {
                 return "no more";
             }
-            return _number.ToString();
+            return Number.ToString();
         }
 
         public string Action()
         {
-            if (_number == 0)
+            if (Number == 0)
             {
                 return "Go to the store and buy some more";
             }
@@ -48,12 +48,12 @@ namespace _99BottlesOfOOP
 
         public int Successor()
         {
-            if (_number == 0)
+            if (Number == 0)
             {
                 return 99;
             }
 
-            return _number - 1;
+            return Number - 1;
         }
 
         public override string ToString()
