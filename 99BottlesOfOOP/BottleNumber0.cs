@@ -8,11 +8,7 @@ namespace _99BottlesOfOOP
 
         public override string Quantity()
         {
-            if (Number == 0)
-            {
-                return "no more";
-            }
-            return Number.ToString();
+            return "no more";
         }
     }
 }
