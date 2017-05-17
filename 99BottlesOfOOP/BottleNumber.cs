@@ -28,7 +28,7 @@ namespace _99BottlesOfOOP
             return "one";
         }
 
-        public string Quantity()
+        public virtual string Quantity()
         {
             if (Number == 0)
             {
