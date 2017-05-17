@@ -2,7 +2,7 @@ namespace _99BottlesOfOOP
 {
     public class BottleNumber
     {
-        private readonly int _number;
+        protected readonly int _number;
 
         public BottleNumber(int number)
         {
