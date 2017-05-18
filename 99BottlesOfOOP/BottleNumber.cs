@@ -38,13 +38,8 @@ namespace _99BottlesOfOOP
             return $"Take {Pronoun()} down and pass it around";
         }
 
-        public int Successor()
+        public virtual int Successor()
         {
-            if (Number == 0)
-            {
-                return 99;
-            }
-
             return Number - 1;
         }
 

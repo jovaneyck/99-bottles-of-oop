@@ -15,5 +15,10 @@ namespace _99BottlesOfOOP
         {
             return "Go to the store and buy some more";
         }
+
+        public override int Successor()
+        {
+            return 99;
+        }
     }
 }
