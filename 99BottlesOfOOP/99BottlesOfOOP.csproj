@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="BottleNumber.cs" />
     <Compile Include="BottleNumber0.cs" />
+    <Compile Include="BottleNumber1.cs" />
     <Compile Include="Bottles.cs" />
     <Compile Include="BottlesTest.cs" />
     <Compile Include="CapitalizationTests.cs" />
