@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections;
+using System.Linq;
 using static System.String;
 
 namespace _99BottlesOfOOP
@@ -33,7 +34,13 @@ namespace _99BottlesOfOOP
 
         public BottleNumber BottleNumberFor(int number)
         {
-            return new BottleNumber(number);
+            switch (number)
+            {
+                case 0:
+                    return new BottleNumber0(number);
+                default:
+                    return new BottleNumber(number);
+            }
         }
     }
 }
