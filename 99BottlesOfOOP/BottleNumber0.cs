@@ -10,5 +10,10 @@ namespace _99BottlesOfOOP
         {
             return "no more";
         }
+
+        public override string Action()
+        {
+            return "Go to the store and buy some more";
+        }
     }
 }

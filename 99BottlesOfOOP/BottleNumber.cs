@@ -33,12 +33,8 @@ namespace _99BottlesOfOOP
             return Number.ToString();
         }
 
-        public string Action()
+        public virtual string Action()
         {
-            if (Number == 0)
-            {
-                return "Go to the store and buy some more";
-            }
             return $"Take {Pronoun()} down and pass it around";
         }
 
