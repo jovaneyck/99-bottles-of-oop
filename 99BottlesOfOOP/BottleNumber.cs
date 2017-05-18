@@ -9,22 +9,13 @@ namespace _99BottlesOfOOP
             Number = number;
         }
 
-        public string Container()
+        public virtual string Container()
         {
-            if (Number == 1)
-            {
-                return "bottle";
-            }
-
             return "bottles";
         }
 
-        public string Pronoun()
+        public virtual string Pronoun()
         {
-            if (Number == 1)
-            {
-                return "it";
-            }
             return "one";
         }
 
