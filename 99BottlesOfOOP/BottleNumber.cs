@@ -30,10 +30,6 @@ namespace _99BottlesOfOOP
 
         public virtual string Quantity()
         {
-            if (Number == 0)
-            {
-                return "no more";
-            }
             return Number.ToString();
         }
 
