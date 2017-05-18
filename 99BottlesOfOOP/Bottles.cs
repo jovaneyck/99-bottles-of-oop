@@ -30,5 +30,10 @@ namespace _99BottlesOfOOP
                    $"{bottleNumber.Action()}, " +
                    $"{nextBottleNumber} of beer on the wall.";
         }
+
+        public BottleNumber BottleNumberFor(int number)
+        {
+            return new BottleNumber(number);
+        }
     }
 }
