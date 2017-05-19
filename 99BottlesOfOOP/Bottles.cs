@@ -24,17 +24,12 @@ namespace _99BottlesOfOOP
 
         public string Verse(int number)
         {
-            var bottleNumber = BottleNumberFor(number);
-            var nextBottleNumber = BottleNumberFor(bottleNumber.Successor());
+            var bottleNumber = BottleNumber.For(number);
+            var nextBottleNumber = BottleNumber.For(bottleNumber.Successor());
             return $"{bottleNumber} of beer on the wall, ".Capitalize() +
                    $"{bottleNumber} of beer.\r\n" +
                    $"{bottleNumber.Action()}, " +
                    $"{nextBottleNumber} of beer on the wall.";
-        }
-
-        public BottleNumber BottleNumberFor(int number)
-        {
-            return BottleNumber.For(number);
         }
     }
 }
