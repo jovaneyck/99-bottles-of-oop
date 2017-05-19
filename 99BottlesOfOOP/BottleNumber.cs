@@ -9,19 +9,6 @@ namespace _99BottlesOfOOP
             Number = number;
         }
 
-        public static BottleNumber For(int number)
-        {
-            switch (number)
-            {
-                case 0:
-                    return new BottleNumber0(number);
-                case 1:
-                    return new BottleNumber1(number);
-                default:
-                    return new BottleNumber(number);
-            }
-        }
-
         public virtual string Container()
         {
             return "bottles";
