@@ -48,6 +48,11 @@ namespace _99BottlesOfOOP
             return Number - 1;
         }
 
+        public virtual BottleNumber Succ()
+        {
+            return For(Number - 1);
+        }
+
         public override string ToString()
         {
             return $"{Quantity()} {Container()}";
