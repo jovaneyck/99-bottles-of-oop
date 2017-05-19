@@ -20,5 +20,10 @@ namespace _99BottlesOfOOP
         {
             return 99;
         }
+
+        public override BottleNumber Succ()
+        {
+            return For(99);
+        }
     }
 }
