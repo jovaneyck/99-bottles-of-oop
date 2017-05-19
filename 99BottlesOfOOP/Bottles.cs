@@ -34,7 +34,7 @@ namespace _99BottlesOfOOP
 
         public BottleNumber BottleNumberFor(int number)
         {
-            return BottleNumber.BottleNumberFor(number);
+            return BottleNumber.For(number);
         }
     }
 }

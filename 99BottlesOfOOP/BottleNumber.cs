@@ -9,7 +9,7 @@ namespace _99BottlesOfOOP
             Number = number;
         }
 
-        public static BottleNumber BottleNumberFor(int number)
+        public static BottleNumber For(int number)
         {
             switch (number)
             {
