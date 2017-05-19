@@ -17,6 +17,14 @@ Take one down and pass it around, 88 bottles of beer on the wall.")]
             50,
             @"50 bottles of beer on the wall, 50 bottles of beer.
 Take one down and pass it around, 49 bottles of beer on the wall.")]
+        [InlineData("Verse Seven",
+                    2,
+                    @"7 bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 1 six-pack of beer on the wall.")]
+        [InlineData("Verse six",
+                    6,
+                    @"1 six-pack of beer on the wall, 1 six-pack of beer.
+Take one down and pass it around, 5 bottles of beer on the wall.")]
         [InlineData("Verse two",
                     2,
                     @"2 bottles of beer on the wall, 2 bottles of beer.
@@ -341,9 +349,9 @@ Take one down and pass it around, 8 bottles of beer on the wall.
 Take one down and pass it around, 7 bottles of beer on the wall.
 
 7 bottles of beer on the wall, 7 bottles of beer.
-Take one down and pass it around, 6 bottles of beer on the wall.
+Take one down and pass it around, 1 six-pack of beer on the wall.
 
-6 bottles of beer on the wall, 6 bottles of beer.
+1 six-pack of beer on the wall, 1 six-pack of beer.
 Take one down and pass it around, 5 bottles of beer on the wall.
 
 5 bottles of beer on the wall, 5 bottles of beer.
