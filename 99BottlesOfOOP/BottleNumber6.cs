@@ -6,6 +6,11 @@ namespace _99BottlesOfOOP
         {
         }
 
+        public override string Quantity()
+        {
+            return "1";
+        }
+
         public override string Container()
         {
             return "six-pack";
