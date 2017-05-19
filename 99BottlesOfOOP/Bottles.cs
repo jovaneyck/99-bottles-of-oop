@@ -34,15 +34,7 @@ namespace _99BottlesOfOOP
 
         public BottleNumber BottleNumberFor(int number)
         {
-            switch (number)
-            {
-                case 0:
-                    return new BottleNumber0(number);
-                case 1:
-                    return new BottleNumber1(number);
-                default:
-                    return new BottleNumber(number);
-            }
+            return BottleNumber.BottleNumberFor(number);
         }
     }
 }
