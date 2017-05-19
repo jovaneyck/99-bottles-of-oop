@@ -16,7 +16,7 @@ namespace _99BottlesOfOOP
             return "Go to the store and buy some more";
         }
 
-        public override BottleNumber Succ()
+        public override BottleNumber Successor()
         {
             return For(99);
         }

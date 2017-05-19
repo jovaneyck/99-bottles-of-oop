@@ -25,7 +25,7 @@ namespace _99BottlesOfOOP
         public string Verse(int number)
         {
             var bottleNumber = BottleNumber.For(number);
-            var nextBottleNumber = bottleNumber.Succ();
+            var nextBottleNumber = bottleNumber.Successor();
             return $"{bottleNumber} of beer on the wall, ".Capitalize() +
                    $"{bottleNumber} of beer.\r\n" +
                    $"{bottleNumber.Action()}, " +
