@@ -18,7 +18,7 @@ Take one down and pass it around, 88 bottles of beer on the wall.")]
             @"50 bottles of beer on the wall, 50 bottles of beer.
 Take one down and pass it around, 49 bottles of beer on the wall.")]
         [InlineData("Verse Seven",
-                    2,
+                    7,
                     @"7 bottles of beer on the wall, 7 bottles of beer.
 Take one down and pass it around, 1 six-pack of beer on the wall.")]
         [InlineData("Verse six",
