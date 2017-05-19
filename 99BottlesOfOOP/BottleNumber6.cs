@@ -5,5 +5,10 @@ namespace _99BottlesOfOOP
         public BottleNumber6(int number) : base(number)
         {
         }
+
+        public override string Container()
+        {
+            return "six-pack";
+        }
     }
 }
