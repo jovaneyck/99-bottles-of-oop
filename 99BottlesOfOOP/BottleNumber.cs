@@ -43,11 +43,6 @@ namespace _99BottlesOfOOP
             return $"Take {Pronoun()} down and pass it around";
         }
 
-        public virtual int Successor()
-        {
-            return Number - 1;
-        }
-
         public virtual BottleNumber Succ()
         {
             return For(Number - 1);
